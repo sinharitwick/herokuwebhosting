@@ -1,0 +1,35 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        | THE EASTERN INDIES
+    
+    section#visionSection
+        h2 Our Vision
+        div.card
+          h3 To provide full support to budding musicians
+          div.card-img
+              img(src="/static/concert.jpg")
+        div.card
+          h3 To launch a common online platform
+          div.card-img
+              img(src="/static/concert.jpg")
+        div.card
+          h3 To become India's biggest band
+          div.card-img
+              img(src="/static/concert.jpg")
+    
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors
+          img(src="/static/pepsi.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/castrol.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/redbull.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/coke.png", alt="Sponsor Image", class="spImage")

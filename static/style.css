@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+#navbar li a:hover,
+    #navbar li a.active {
+      color: aquamarine;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/music.jpg");
+    height: 300px;
+    background-color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+}
+
+#visionSection{
+    height: 400px;
+}
+
+#visionSection h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 12px;
+    font-weight: lighter;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 300px;
+    display: inline-block;
+    background-color: black;
+}
+
+.card:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.card h3{
+    text-align: center;
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    margin: 12px;
+    color: white;
+}
+
+.card-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sponsorSection{
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+#sponsorSection h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 12px;
+    font-weight: lighter;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 125px;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
